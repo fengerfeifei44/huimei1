@@ -60,12 +60,15 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {color: #ff806b;}*/
     animation:fadeIn 1s 1s linear both;
 }
 input{
+
     height: 44px;
     line-height: 44px;
-    background: transparent;
+    background-color: transparent;
     font-size: 14px;
     outline: none;
     -webkit-appearance: none;
+    tap-highlight-color:rgba(0,0,0,0);
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
 
 }
 input:focus{
