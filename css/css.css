@@ -68,11 +68,14 @@ input{
     -webkit-appearance: none;
 
 }
+input:focus{
+    background: none;
+}
 input[type="date"]{
-    text-align: right;
     width: 50%;
     height: 44px;
     line-height: 44px;
+    text-align: right;
     overflow: hidden;
     box-shadow: none;
    /* background-color: transparent;*/
