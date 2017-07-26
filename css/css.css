@@ -63,9 +63,9 @@ input{
     font-size: 14px;
     outline: none;
 }
-/*input[type="date"]{
-    background: transparent;
-}*/
+input[type="date"]{
+    background-color: transparent;
+}
 body{
     background: #f8f8f8;
 }
