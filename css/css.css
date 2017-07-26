@@ -62,9 +62,9 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {color: #ff806b;}*/
 input{
     outline: none;
 }
-input[type="date"]{
+/*input[type="date"]{
     background: transparent;
-}
+}*/
 body{
     background: #f8f8f8;
 }
