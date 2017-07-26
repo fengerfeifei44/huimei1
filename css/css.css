@@ -60,10 +60,16 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {color: #ff806b;}*/
     animation:fadeIn 1s 1s linear both;
 }
 input{
+    height: 44px;
+    line-height: 44px;
+    background: transparent;
     font-size: 14px;
     outline: none;
 }
 input[type="date"]{
+    height: 44px;
+    line-height: 44px;
+    box-shadow: none;
     background-color: transparent;
 }
 body{
@@ -181,7 +187,7 @@ h1>span>img{
 }
 .bottom{
     width: 100%;
-    height: 120px;
+    height: 50px;
     background-color: transparent;
 }
 /*two*/
