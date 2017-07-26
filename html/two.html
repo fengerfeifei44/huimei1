@@ -26,11 +26,11 @@
           <ol class="margin">
               <li>
                   <label for="date">日期</label>
-                  <input type="date" id="date" name="date" placeholder="请选择日期">
+                  <input  id="date" name="date"  type="text" onfocus="this.type='date'" onblur="this.type='text'"   placeholder="请选择日期">
               </li>
               <li>
                   <label >手术</label>
-                  <input type="text"  placeholder="您做过的手术名称">
+                  <input type="text" name="date" placeholder="您做过的手术名称">
               </li>
           </ol>
           <p class="add"><img src="../images/jia.png" alt=""></p>
@@ -60,20 +60,30 @@
   </div>
 <script src="../js/jquery.js"></script>
 <script>
-    $(".add").click(function () {
-        var str="";
-        str+=' <ol class="margin">\
+    $(function () {
+        $(".add").click(function () {
+            var str="";
+            str+=' <ol class="margin">\
         <li>\
         <label for="date">日期</label>\
-            <input type="date" id="date" name="date" placeholder="请选择日期">\
+            <input  id="date" class="date"  type="text" placeholder="请选择日期">\
             </li>\
             <li>\
             <label >手术</label>\
             <input type="text"  placeholder="您做过的手术名称">\
             </li>\
             </ol>'
-        $(this).before(str)
+            $(this).before(str)
+            $(".date").focus(function () {
+                this.type="date"
+            })
+            $(".date").blur(function () {
+                this.type="text"
+            })
+        })
     })
+
+
 </script>
 </body>
 </html>
