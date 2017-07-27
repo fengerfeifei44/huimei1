@@ -15,9 +15,10 @@
         <p >（请填写您最近做过的以下检查的时间）</p>
         <ol>
             <li>
-                <div class="top">
+                <div class="top" style="position: relative">
                     <label for="date">乳腺癌</label>
-                    <input name="date" id="date"  type="datetime-local" placeholder="上次检查时间">
+                    <input name="date" id="date"  type="date" placeholder="上次检查时间" style="position:relative;z-index: 100">
+                    <span style="position: absolute;top:0;right: 5px;color: #1a93d3;">上次检查时间</span>
                 </div>
                 <p class="explain">(女性40岁以后，应每1～2年接受一次乳腺X线检查50岁以后应每年一次。)</p>
             </li>
@@ -83,5 +84,11 @@
     </div>
     <div class="bottom"></div>
 </div>
+<script src="../js/jquery.js"></script>
+<script>
+    $('input[type=date]').focus(function () {
+        $(this).siblings('span').css('display','none');
+    })
+</script>
 </body>
 </html>
