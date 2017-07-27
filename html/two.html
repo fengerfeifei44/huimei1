@@ -15,22 +15,22 @@
           <p class="blue">既往重大手术史</p>
           <ol>
               <li>
-                  <label for="txtBirthday">日期</label>
-                  <input  id="txtBirthday" name="txtBirthday"  type="text" onfocus="this.type='date'" onblur="this.type='text'"  placeholder="请选择日期">
+                  <label for="date">日期</label>
+                  <input  id="date" name="date"  type="text" onfocus="this.type='date'" onblur="this.type='text'"  placeholder="请选择日期">
               </li>
               <li>
-                  <label>手术</label>
-                  <input type="text" placeholder="您做过的手术名称">
+                  <label for="surgery">手术</label>
+                  <input type="text" id="surgery" placeholder="您做过的手术名称">
               </li>
           </ol>
           <ol class="margin">
               <li>
-                  <label for="date">日期</label>
-                  <input  id="date" name="date"  type="text" onfocus="this.type='date'" onblur="this.type='text'"   placeholder="请选择日期">
+                  <label for="date2">日期</label>
+                  <input  id="date2" name="date2"  type="text" onfocus="this.type='date'" onblur="this.type='text'"   placeholder="请选择日期">
               </li>
               <li>
-                  <label >手术</label>
-                  <input type="text" name="date" placeholder="您做过的手术名称">
+                  <label  for="surgery2">手术</label>
+                  <input type="text" name="surgery2" id="surgery2" placeholder="您做过的手术名称">
               </li>
           </ol>
           <p class="add"><img src="../images/jia.png" alt=""></p>
@@ -66,7 +66,7 @@
             str+=' <ol class="margin">\
         <li>\
         <label for="date">日期</label>\
-            <input  id="date" class="date"  type="text" placeholder="请选择日期">\
+            <input  id="date" class="date"  type="date" placeholder="请选择日期">\
             </li>\
             <li>\
             <label >手术</label>\
@@ -74,12 +74,12 @@
             </li>\
             </ol>'
             $(this).before(str)
-            $(".date").focus(function () {
+           /* $(".date").focus(function () {
                 this.type="date"
             })
             $(".date").blur(function () {
                 this.type="text"
-            })
+            })*/
         })
     })
 

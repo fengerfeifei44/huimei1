@@ -12,69 +12,63 @@
 </div>
 <div class="content">
     <div class="screening">
-        <p >（请填写您最近做过的以下检查的时间）</p>
+        <p>请填写您最近做过的以下检查的时间</p>
         <ol>
             <li>
-                <div class="top" style="position: relative">
-                    <label for="date">乳腺癌</label>
-                    <input name="date" id="date"  type="date" placeholder="上次检查时间" style="position:relative;z-index: 100">
-                    <span style="position: absolute;top:0;right: 5px;color: #1a93d3;">上次检查时间</span>
+                <p class="top"><span class="blue_color" >乳腺癌</span>（女性40岁以后，应每1～2年接受一次乳腺X线检查50岁以后应每年一次。）</p>
+                <div class="check_time">
+                    <label for="date">上次检查时间:</label>
+                    <input name="date" id="date"  type="date"  placeholder="请选择日期" >
                 </div>
-                <p class="explain">(女性40岁以后，应每1～2年接受一次乳腺X线检查50岁以后应每年一次。)</p>
             </li>
             <li>
-                <div class="top">
-                    <label >宫颈癌</label>
-                    <input    type="text" onfocus="this.type='date'" onblur="this.type='text'"   placeholder="上次检查时间">
+                <p class="top"><span class="blue_color">宫颈癌</span>[女性21岁以后或有性生活后3年内开始，应至少每3年接受一次子宫颈涂片检查。9～26岁的女性应考虑接种人乳头瘤病毒（HPV）疫苗。]</p>
+                <div class="check_time">
+                    <label for="date1" >上次检查时间</label>
+                    <input   type="date"  name="date" id="date1"  placeholder="请选择日期">
                 </div>
-                <p class="explain">[女性21岁以后或有性生活后3年内开始，应至少每3年接受一次子宫颈涂片检查。9～26岁的女性应考虑接种人乳头瘤病毒（HPV）疫苗。]</p>
             </li>
             <li>
-
-                <div class="top">
-                    <label >结肠癌</label>
-                    <input   type="text" onfocus="this.type='date'" onblur="this.type='text'"    placeholder="上次检查时间">
+                <p class="top"><span class="blue_color">结肠癌</span>（男性和女性均应在50岁以后开始定期接受结肠癌筛查。请向医生咨询最适合您的筛查方法，以及应该多久筛查一次。）</p>
+                <div class="check_time">
+                    <label  for="date2" >上次检查时间</label>
+                    <input    type="date"  name="date" id="date2"    placeholder="请选择日期">
                 </div>
-                <p class="explain">（男性和女性均应在50岁以后开始定期接受结肠癌筛查。请向医生咨询最适合您的筛查方法，以及应该多久筛查一次。）</p>
             </li>
             <li>
-
-                <div class="top">
-                    <label >预防接种</label>
-                    <input   type="text" onfocus="this.type='date'" onblur="this.type='text'"   placeholder="上次检查时间">
+                <p class="top"><span class="blue_color">预防接种</span></p>
+                <div class="check_time">
+                    <label   for="date3">上次检查时间</label>
+                    <input    type="date"  name="date" id="date3"   placeholder="请选择日期">
                 </div>
-
             </li>
             <li>
-
-                <div class="top">
-                    <label >流感</label>
-                    <input   type="text" onfocus="this.type='date'" onblur="this.type='text'"   placeholder="上次检查时间">
+                <p class="top"><span class="blue_color">流感</span>（每年秋季）</p>
+                <div class="check_time">
+                    <label   for="date4">上次检查时间</label>
+                    <input type="date"  name="date" id="date4"   placeholder="请选择日期">
                 </div>
-                <p class="explain">（每年秋季）</p>
             </li>
             <li>
-                <div class="top">
-                    <label >肺炎</label>
-                    <input   type="text" onfocus="this.type='date'" onblur="this.type='text'" datepicker="上次检查时间"  placeholder="上次检查时间">
+                <p class="top"><span class="blue_color">肺炎</span>（65岁或以下必要时接种）</p>
+                <div class="check_time">
+                    <label for="date5" >上次检查时间</label>
+                    <input type="date"  name="date" id="date5"   placeholder="请选择日期">
                 </div>
-                <p class="explain">（65岁或以下必要时接种）</p>
             </li>
             <li>
-
-                <div class="top">
-                    <label >破伤风-白喉（Td）</label>
-                    <input   type="text" onfocus="this.type='date'" onblur="this.type='text'"   placeholder="上次检查时间">
+                <p class="top"><span class="blue_color">破伤风-白喉（Td）</span>（每10年接种一次。）</p>
+                <div class="check_time">
+                    <label  for="date6">上次检查时间</label>
+                    <input  type="date"  name="date" id="date6"   placeholder="请选择日期">
                 </div>
-                <p class="explain">（每10年接种一次。）</p>
             </li>
             <li>
-
-                <div class="top">
-                    <label >破伤风/白喉/百日咳(Tdap)</label>
-                    <input style="width: 30%"  type="text" onfocus="this.type='date'" onblur="this.type='text'"   placeholder="上次检查时间">
+                <p class="top"><span class="blue_color">破伤风、白喉、百日咳（Tdap）</span>（在19～65岁期间接种的Td疫苗中，至少应有一剂为Tdap三联疫苗。）</p>
+                <div class="check_time">
+                    <label  for="date7">上次检查时间</label>
+                    <input type="date"  name="date" id="date7"   placeholder="请选择日期">
                 </div>
-                <p class="explain">(在19～65岁期间接种的Td疫苗中，至少应有一剂为Tdap三联疫苗。)</p>
             </li>
         </ol>
 
@@ -84,11 +78,5 @@
     </div>
     <div class="bottom"></div>
 </div>
-<script src="../js/jquery.js"></script>
-<script>
-    $('input[type=date]').focus(function () {
-        $(this).siblings('span').css('display','none');
-    })
-</script>
 </body>
 </html>

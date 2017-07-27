@@ -59,8 +59,8 @@ input{
     width: 50%;
     height: 44px;
     line-height: 44px;
-    background-color: transparent;
     font-size: 14px;
+    background-color: transparent;
     outline: none;
     -webkit-appearance: none;
     tap-highlight-color:rgba(0,0,0,0);
@@ -207,17 +207,35 @@ h1>span>img{
 }
 /*three*/
 .content .screening>p{
+    font-size: 14px;
     text-align: center;
     line-height: 44px;
 }
 .content .screening p{
     white-space: pre-wrap;
 }
+.content .screening label{
+    display: block;
+}
+.content .screening .check_time input{
+    width:100%;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    background: #f1f1f1;
+    height:36px;
+    line-height: 20px;
+}
+.content .screening .top{
+    line-height: 24px;
+    color: #999;
+    font-size: 13px
+}
 .content .screening>p>span{
     color: #666;
     font-size: 12px;
 }
 .content .screening li{
+    padding: 10px 15px;
     margin-bottom: 10px;
     border-top: 1px solid #ececec;
 }
@@ -231,6 +249,7 @@ h1>span>img{
     border-bottom: 1px dotted #ececec;
 }
 .blue_color{
+    display: block;
     font-size: 16px;
     font-style: normal;
     margin-right: 5px;
