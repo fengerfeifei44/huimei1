@@ -206,6 +206,25 @@ h1>span>img{
 .major_surgery .add>img{
     width: 24px;
 }
+/*two-1*/
+.content .major li{
+    background: none;
+    padding-bottom: 10px;
+}
+.content .major li label{
+    display: block;
+    line-height: 35px;
+}
+.content .major li  input{
+    padding: 0 10px;
+    text-align: left;
+    width:100%;
+    height:35px;
+    background:#fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    float: none!important;
+}
 /*three*/
 .content .screening>p{
     font-size: 14px;

@@ -11,18 +11,21 @@
     <h1> <span onclick="window.history.go(-1);"><img src="../images/left_white.png" alt=""></span> 我的健康之路</h1>
 </div>
   <div class="content">
-      <div class="major_surgery">
+      <div class="major_surgery major">
           <p class="blue">既往重大手术史</p>
           <ol>
-              <li>
-                  <label for="date">日期</label>
-                  <input  id="date" name="date"  type="date"   placeholder="请选择日期">
+              <li >
+                  <div class="date">
+                      <label for="date" >日期</label >
+                      <input  id="date" name="date"  type="date"   placeholder="请选择日期">
+                  </div>
+                  <div class="ss">
+                      <label for="surgery">手术</label>
+                      <input type="text" id="surgery"  placeholder="您做过的手术名称"></div>
               </li>
-              <li>
-                  <label for="surgery">手术</label>
-                  <input type="text" id="surgery" placeholder="您做过的手术名称">
-              </li>
-          </ol>
+
+
+           </ol>
          <!-- <ol class="margin">
               <li>
                   <label for="date2">日期</label>
@@ -54,7 +57,7 @@
           </div>
       </div>
       <div class="btn">
-          <a href="two-1.html">下一步</a>
+          <a href="three.html">下一步</a>
       </div>
       <div class="bottom"></div>
   </div>
@@ -63,8 +66,7 @@
     $(function () {
         $(".add").click(function () {
             var str="";
-            str+=' <ol class="margin">\
-        <li>\
+            str+=' <li>\
         <label>日期</label>\
             <input  class="date"  type="date" placeholder="请选择日期">\
             </li>\
@@ -72,7 +74,7 @@
             <label >手术</label>\
             <input type="text"  placeholder="您做过的手术名称">\
             </li>\
-            </ol>'
+            '
             $(this).before(str)
            /* $(".date").focus(function () {
                 this.type="date"
