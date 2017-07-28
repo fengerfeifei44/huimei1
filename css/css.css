@@ -221,6 +221,7 @@ h1>span>img{
     text-align: left;
     width:100%;
     height:35px;
+    line-height: 35px;
     background:#fff;
     border: 1px solid #ccc;
     border-radius: 10px;
