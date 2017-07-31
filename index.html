@@ -10,8 +10,9 @@
 <body>
 <div class="main">
     <div class="head_portrait">
+        <a href="javascropt:;">完成</a>
         <h2><img src="images/health.png" alt=""></h2>
-        <img src="images/phone.jpg" alt="头像">
+        <img src="images/logo.png" alt="头像">
         <p>Hi,<span>我的昵称</span></p>
         <p>请填写下面的调查问卷开启您的健康之路吧！</p>
     </div>
@@ -23,9 +24,26 @@
                <input type="text" id="name" placeholder="请输入姓名">
            </li>
             <li>
+                <label for="age">年龄</label>
+                <input type="number" id="age" placeholder="请输入年龄">
+            </li>
+            <li>
+                <label for="sex">性别</label>
+                <select name="sex" id="sex">
+                    <option value="男">男</option>
+                    <option value="女">女</option>
+                </select>
+
+            </li>
+            <li>
+                <label for="phone">手机号</label>
+                <input type="tel" id="phone" placeholder="请输入手机号">
+            </li>
+            <li>
                 <label for="ID">ID号</label>
                 <input type="text" id="ID" placeholder="请输入ID号">
             </li>
+
             <li>
                 <label for="height">身高</label>
                 <span>cm</span>
@@ -76,7 +94,7 @@
         </ul>
 
         <div class="btn">
-            <a href="html/two.html">下一步</a>
+            <a href="html/two-1.html">下一步</a>
         </div>
         <div class="bottom"></div>
     </div>
