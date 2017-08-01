@@ -438,12 +438,12 @@ body,html{
 
     text-align: center;
 }
-#message .phone .btn button{
+#message .phone .btn a{
     -webkit-border-radius: 5px;
     background-size: 5px;
     height: 36px;
     line-height: 36px;
-    width: 70%;
+    color: #333;
     background: #c3c3c3;
 }
 /*error*/
