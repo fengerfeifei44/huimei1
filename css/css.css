@@ -397,6 +397,7 @@ body,html{
     -webkit-border-radius: 10px;
     background-size: 10px;
     background: #fff;
+    overflow: hidden;
 }
 #message .phone p{
     text-align: center;
