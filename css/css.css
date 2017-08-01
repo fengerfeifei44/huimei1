@@ -423,7 +423,7 @@ body,html{
 #message .phone ul li{
     margin-bottom: 20px;
 }
-#message .phone ul li span,#message .phone ul li input[type=button]{
+#message .phone ul li .right{
     float: right;
     display: block;
     width: 50%;
