@@ -414,8 +414,8 @@ body,html{
 #message .phone ul li input{
     padding: 0 10px;
     width: 50%;
-    height: 30px;
-    line-height: 30px;
+    height: 36px;
+    line-height: 36px;
     border: 1px solid #c3c3c3;
     -webkit-border-radius: 5px;
     background-size: 5px;
@@ -423,12 +423,12 @@ body,html{
 #message .phone ul li{
     margin-bottom: 20px;
 }
-#message .phone ul li span{
+#message .phone ul li input[type=button],span{
     float: right;
     display: block;
     width: 50%;
-    height: 30px;
-    line-height: 30px;
+    height: 36px;
+    line-height: 36px;
     text-align: center;
     background: rgb(26, 147, 211);
     color: #fff;
