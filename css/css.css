@@ -80,10 +80,11 @@ h1, h2, h3, h4, h5, h6{ font-size:100%;font-weight: normal;}
     font-weight: 100;
 }
 input{
+    padding-right: 10px;
     width: 50%;
     height: 44px;
     line-height: 44px;
-    font-size: 14px;
+    font-size: 16px;
     background-color: transparent;
     outline: none;
     -webkit-appearance: none;
@@ -115,6 +116,7 @@ body{
     height: 44px;
     background: url("../images/bg_main.jpg") no-repeat;
     background-size: cover;
+    z-index: 10;
 }
 .title a{
     margin-right: 20px;
@@ -131,6 +133,7 @@ h1{
     color: white;
 }
 h1>span{
+
     position: absolute;
     top: 0;
     left: 15px;
@@ -240,6 +243,7 @@ h1>span>img{
 }
 /*two-1*/
 .content .major li{
+    position: relative;
     background: none;
     padding-bottom: 10px;
 }
@@ -257,6 +261,13 @@ h1>span>img{
     border: 1px solid #ccc;
     border-radius: 10px;
     float: none!important;
+}
+.content .major .list li img{
+    position: absolute;
+    right: 20px;
+    top:6px;
+    width: 24px;
+   z-index: 2;
 }
 /*three*/
 .content .screening>p{
@@ -422,11 +433,12 @@ body,html{
 }
 #message .phone ul li{
     margin-bottom: 20px;
+    overflow: hidden;
 }
 #message .phone ul li .right{
     float: right;
     display: block;
-    width: 50%;
+    width: 45%;
     height: 36px;
     line-height: 36px;
     text-align: center;
@@ -435,7 +447,7 @@ body,html{
     font-size: 14px;
     -webkit-border-radius: 5px;
     background-size: 5px;
-
+   overflow: hidden;
 }
 #message .phone .btn{
 

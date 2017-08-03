@@ -37,7 +37,7 @@
             </li>
             <li>
                 <label >手机号</label>
-                <span >1373<strong>****</strong>0078</span>
+                <span class="star">13730036975</span>
             </li>
             <li>
                 <label for="ID">ID号</label>
@@ -60,5 +60,14 @@
         <div class="bottom"></div>
     </div>
 </div>
+<script src="js/jquery.js"></script>
+<script>
+    $(function() {
+        var phone = $('.star').text();
+        var mphone = phone.substr(0, 3) + '****' + phone.substr(7);
+
+    $('.star').text(mphone)
+    });
+</script>
 </body>
 </html>
