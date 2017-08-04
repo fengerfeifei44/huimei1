@@ -84,7 +84,7 @@ input{
     width: 50%;
     height: 44px;
     line-height: 44px;
-    font-size: 12px;
+    font-size: 14px;
     background-color: transparent;
     outline: none;
     -webkit-appearance: none;
@@ -148,7 +148,7 @@ h1>span>img{
 .content{
     margin-top:44px;
     width: 100%;
-    font-size: 12px;
+    font-size: 14px;
     color: #333;
 
 }
