@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6{ font-size:100%;font-weight: normal;}
 
 }
 .head_portrait>p:nth-of-type(1){
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 0 20px;
     line-height: 20px;
     font-size: 16px;
@@ -84,7 +84,7 @@ input{
     width: 50%;
     height: 44px;
     line-height: 44px;
-    font-size: 16px;
+    font-size: 12px;
     background-color: transparent;
     outline: none;
     -webkit-appearance: none;
@@ -148,7 +148,7 @@ h1>span>img{
 .content{
     margin-top:44px;
     width: 100%;
-    font-size: 16px;
+    font-size: 12px;
     color: #333;
 
 }
@@ -159,7 +159,7 @@ h1>span>img{
     border-top: 1px solid #ececec;
 }
 .content  li{
-    padding: 0 20px;
+    padding: 0 10px;
     border-bottom: 1px solid #ececec;
     width: 100%;
     line-height: 44px;

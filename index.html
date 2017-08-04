@@ -12,8 +12,8 @@
     <div class="head_portrait">
         <a href="javascropt:;">完成</a>
         <h2><img src="images/health.png" alt=""></h2>
-        <img src="images/logo.png" alt="头像">
-        <p>Hi,<span>您好</span></p>
+        <img src="images/logo-xx.png" alt="头像">
+       <!-- <p>Hi,<span>您好</span></p>-->
         <p>请填写下面的调查问卷开启您的健康之路吧！</p>
     </div>
 
@@ -25,7 +25,7 @@
            </li>
             <li>
                 <label for="age">年龄</label>
-                <input type="number" id="age" placeholder="请输入年龄">
+                <input type="date" id="age" placeholder="请输入年龄">
             </li>
             <li>
                 <label for="sex">性别</label>
@@ -65,8 +65,7 @@
     $(function() {
         var phone = $('.star').text();
         var mphone = phone.substr(0, 3) + '****' + phone.substr(7);
-
-    $('.star').text(mphone)
+        $('.star').text(mphone)
     });
 </script>
 </body>
